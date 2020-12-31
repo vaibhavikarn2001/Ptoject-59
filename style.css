@@ -5,6 +5,7 @@ body{
 img{
   height:250px;
   width:250pxs;
+  transition: transform .2s;
 }
 h1{
   font-size:30px;
@@ -69,4 +70,28 @@ p{
 }
 html{
     scroll-behavior: smooth;
+}
+#app{
+    width:100%;
+    height:800px;
+    background-color: aliceblue;
+}
+.line{
+    height:60px;
+    background-color: #139c79;
+    width:70px;
+    margin:8px auto;
+}
+#game{
+    width:100%;
+    height:800px;
+    background-color: lightcoral;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#chatbot{
+    width:100%;
+    height:800px;
+    background-color: lightcoral;
 }
